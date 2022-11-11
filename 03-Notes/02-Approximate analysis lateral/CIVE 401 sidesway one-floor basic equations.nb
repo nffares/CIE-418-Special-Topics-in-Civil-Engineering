@@ -1,0 +1,186 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4501,        177]
+NotebookOptionsPosition[      4023,        158]
+NotebookOutlinePosition[      4486,        176]
+CellTagsIndexPosition[      4443,        173]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "sh"], TraditionalForm]]],
+ "  = ",
+ Cell[BoxData[
+  RowBox[{"\[Piecewise]", GridBox[{
+     {
+      RowBox[{
+       RowBox[{
+        FractionBox[
+         RowBox[{"4", " ", "k"}], 
+         RowBox[{"(", 
+          RowBox[{"3", "+", 
+           RowBox[{"4", " ", "k"}]}], ")"}]], " ", 
+        FractionBox[
+         RowBox[{"3", " ", "EI"}], 
+         SuperscriptBox["L", "3"]]}], "\[IndentingNewLine]"}], 
+      RowBox[{"     ", 
+       StyleBox[
+        RowBox[{"hinge", " ", "support", "   ", "  ", "   ", 
+         RowBox[{"(", "a", ")"}]}],
+        FontFamily->"Times"]}]},
+     {
+      RowBox[{
+       RowBox[{
+        FractionBox[
+         RowBox[{"(", 
+          RowBox[{"1", "+", 
+           RowBox[{"4", " ", "k"}]}], ")"}], 
+         RowBox[{"(", 
+          RowBox[{"4", "+", 
+           RowBox[{"4", "k"}]}], ")"}]], 
+        FractionBox[
+         RowBox[{"12", " ", "EI"}], 
+         SuperscriptBox["L", "3"]]}], "\[IndentingNewLine]"}], 
+      RowBox[{"     ", 
+       StyleBox[
+        RowBox[{"fixed", " ", "support", "    ", "    ", 
+         RowBox[{"(", "b", ")"}]}],
+        FontFamily->"Times"]}]},
+     {"0", 
+      StyleBox[
+       RowBox[{"       ", 
+        RowBox[{"roller", " ", "support", "       ", " ", 
+         RowBox[{"(", "c", ")"}]}]}],
+       FontFamily->"Times"]}
+    }]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{{3.428230614087813*^9, 3.428230636562894*^9}}]
+}], "Text"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {
+       RowBox[{
+        SubscriptBox["M", 
+         RowBox[{"inner", " ", "top"}]], "\[IndentingNewLine]"}]},
+      {
+       SubscriptBox["M", 
+        RowBox[{"inner", " ", "bottom"}]]}
+     }], ")"}], TraditionalForm]],
+  FontSize->12],
+ "  = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"(", GridBox[{
+       {
+        StyleBox[
+         FractionBox[
+          RowBox[{"2", "k"}], 
+          RowBox[{
+           RowBox[{"1", "+", 
+            RowBox[{"4", "k"}]}], "\[IndentingNewLine]"}]],
+         FontSize->14]},
+       {
+        StyleBox[
+         RowBox[{"-", 
+          FractionBox[
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"2", "k"}]}], ")"}], 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"4", "k"}]}], ")"}]]}],
+         FontSize->14]}
+      }], ")"}], " ", "V", " ", "L"}], TraditionalForm]],
+  FontSize->12],
+ "\t   (fixed end)"
+}], "Text"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {
+       RowBox[{
+        SubscriptBox["M", 
+         RowBox[{"inner", " ", "top"}]], "\[IndentingNewLine]"}]},
+      {
+       SubscriptBox["M", 
+        RowBox[{"inner", " ", "bottom"}]]}
+     }], ")"}], TraditionalForm]]],
+ "  = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"(", GridBox[{
+       {
+        RowBox[{"1", "\[IndentingNewLine]"}]},
+       {"0"}
+      }], ")"}], " ", "V", " ", "L"}], TraditionalForm]]],
+ "\t  (hinged end)"
+}], "Text",
+ CellChangeTimes->{3.636084846597406*^9}],
+
+Cell[TextData[{
+ "\t",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["x", "I"], TraditionalForm]]],
+ "  = ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"(", 
+     RowBox[{"1", "+", 
+      RowBox[{"2", "k"}]}], ")"}], 
+    RowBox[{"(", 
+     RowBox[{"1", "+", 
+      RowBox[{"4", "k"}]}], ")"}]], TraditionalForm]]],
+ " L\t\t\t\t(fixed end)"
+}], "Text"]
+},
+WindowSize->{770, 555},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+Magnification:>2. Inherited,
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September 9, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 1514, 51, 222, "Text"],
+Cell[2074, 73, 1006, 40, 169, "Text"],
+Cell[3083, 115, 574, 23, 145, "Text"],
+Cell[3660, 140, 359, 16, 118, "Text"]
+}
+]
+*)
+
+(* End of internal cache information *)

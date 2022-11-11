@@ -1,0 +1,357 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      9413,        348]
+NotebookOptionsPosition[      8791,        325]
+NotebookOutlinePosition[      9248,        343]
+CellTagsIndexPosition[      9205,        340]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "sh"], TraditionalForm]],
+  FontSize->18],
+ StyleBox["  =  ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["k", "b"], " ", "+", " ", 
+      SubscriptBox["k", "t"], " ", "+", " ", 
+      RowBox[{"4", " ", 
+       SubscriptBox["k", "b"], " ", 
+       SubscriptBox["k", "t"]}]}], ")"}], 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", " ", "+", " ", 
+       RowBox[{"4", " ", 
+        SubscriptBox["k", "b"]}], " ", "+", " ", 
+       RowBox[{"4", " ", 
+        SubscriptBox["k", "t"]}], " ", "+", " ", 
+       RowBox[{"4", " ", 
+        SubscriptBox["k", "b"], " ", 
+        SubscriptBox["k", "t"]}]}], ")"}], "     ", "+", "    ", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"3", "+", " ", 
+        RowBox[{"6", " ", 
+         SubscriptBox["k", "b"]}]}], ")"}], "  ", 
+      FractionBox[
+       SubscriptBox["M", "t"], "VL"]}], "     ", "+", "    ", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"3", "+", " ", 
+        RowBox[{"6", " ", 
+         SubscriptBox["k", "t"]}]}], ")"}], " ", 
+      FractionBox[
+       SubscriptBox["M", "b"], "VL"]}]}]], TraditionalForm]],
+  FontSize->18],
+ StyleBox[" \[Times] 12 ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   FractionBox["EI", 
+    SuperscriptBox["L", "3"]], TraditionalForm]],
+  FontSize->18]
+}], "Text"],
+
+Cell[TextData[{
+ "\n\n",
+ StyleBox["If ",
+  FontSize->24],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["M", "b"], " ", "=", " ", 
+    RowBox[{
+     SubscriptBox["M", "t"], " ", "=", " ", "0"}]}], TraditionalForm]],
+  FontSize->24],
+ StyleBox[":",
+  FontSize->24]
+}], "Text"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "sh"], TraditionalForm]],
+  FontSize->36],
+ StyleBox["  =  ",
+  FontSize->36],
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["k", "b"], " ", "+", " ", 
+      SubscriptBox["k", "t"], " ", "+", " ", 
+      RowBox[{"4", " ", 
+       SubscriptBox["k", "b"], " ", 
+       SubscriptBox["k", "t"]}]}], ")"}], 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", " ", "+", " ", 
+       RowBox[{"4", " ", 
+        SubscriptBox["k", "b"]}], " ", "+", " ", 
+       RowBox[{"4", " ", 
+        SubscriptBox["k", "t"]}], " ", "+", " ", 
+       RowBox[{"4", " ", 
+        SubscriptBox["k", "b"], " ", 
+        SubscriptBox["k", "t"]}]}], ")"}], " "}]], TraditionalForm]],
+  FontSize->36],
+ StyleBox[" \[Times] 12 ",
+  FontSize->36],
+ Cell[BoxData[
+  FormBox[
+   FractionBox["EI", 
+    SuperscriptBox["L", "3"]], TraditionalForm]],
+  FontSize->36]
+}], "Text"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {
+       RowBox[{
+        SubscriptBox["M", 
+         RowBox[{"inner", " ", "top"}]], "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]"}]},
+      {
+       SubscriptBox["M", 
+        RowBox[{"inner", " ", "bottom"}]]}
+     }], ")"}], TraditionalForm]],
+  FontSize->18],
+ StyleBox["  = ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     RowBox[{"(", GridBox[{
+        {
+         RowBox[{
+          RowBox[{"+", 
+           FractionBox[
+            RowBox[{
+             SubscriptBox["k", "t"], "+", 
+             RowBox[{"2", " ", 
+              SubscriptBox["k", "b"], 
+              SubscriptBox["k", "t"]}]}], 
+            RowBox[{
+             SubscriptBox["k", "b"], "+", 
+             SubscriptBox["k", "t"], "+", 
+             RowBox[{"4", " ", 
+              SubscriptBox["k", "b"], " ", 
+              SubscriptBox["k", "t"]}]}]]}], "\[IndentingNewLine]"}]},
+        {
+         RowBox[{"-", 
+          FractionBox[
+           RowBox[{" ", 
+            RowBox[{
+             SubscriptBox["k", "b"], " ", "+", 
+             RowBox[{"2", " ", 
+              SubscriptBox["k", "b"], " ", 
+              SubscriptBox["k", "t"]}]}]}], 
+           RowBox[{
+            SubscriptBox["k", "b"], "+", 
+            SubscriptBox["k", "t"], "+", 
+            RowBox[{"4", " ", 
+             SubscriptBox["k", "b"], " ", 
+             SubscriptBox["k", "t"]}]}]]}]}
+       }], ")"}],
+     FontSize->24], "  ", "V", " ", "L"}], TraditionalForm]],
+  FontSize->18],
+ StyleBox["  \n\n\t\t+  ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"(", GridBox[{
+       {
+        RowBox[{
+         RowBox[{
+          StyleBox["+",
+           FontSize->14], 
+          StyleBox[" ",
+           FontSize->14], 
+          StyleBox[
+           FractionBox[
+            SubscriptBox["k", "t"], 
+            RowBox[{
+             SubscriptBox["k", "b"], "+", 
+             SubscriptBox["k", "t"], "+", 
+             RowBox[{"4", " ", 
+              SubscriptBox["k", "b"], " ", 
+              SubscriptBox["k", "t"]}]}]],
+           FontSize->24]}], 
+         StyleBox["\[IndentingNewLine]",
+          FontSize->24]}]},
+       {
+        RowBox[{
+         StyleBox["+",
+          FontSize->14], 
+         StyleBox[" ",
+          FontSize->14], 
+         StyleBox[
+          FractionBox[
+           SubscriptBox["k", "t"], 
+           RowBox[{
+            SubscriptBox["k", "b"], "+", 
+            SubscriptBox["k", "t"], "+", 
+            RowBox[{"4", " ", 
+             SubscriptBox["k", "b"], " ", 
+             SubscriptBox["k", "t"]}]}]],
+          FontSize->24]}]}
+      }], ")"}], "  ", 
+    SubscriptBox["M", "b"]}], TraditionalForm]],
+  FontSize->18],
+ StyleBox["  \n\t\t\n\t\t+   ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"(", GridBox[{
+       {
+        RowBox[{
+         RowBox[{
+          StyleBox["-",
+           FontSize->14], 
+          StyleBox[" ",
+           FontSize->14], 
+          StyleBox[
+           FractionBox[
+            SubscriptBox["k", "b"], 
+            RowBox[{
+             SubscriptBox["k", "b"], "+", 
+             SubscriptBox["k", "t"], "+", 
+             RowBox[{"4", " ", 
+              SubscriptBox["k", "b"], " ", 
+              SubscriptBox["k", "t"]}]}]],
+           FontSize->24]}], 
+         StyleBox["\[IndentingNewLine]",
+          FontSize->24]}]},
+       {
+        RowBox[{
+         StyleBox["-",
+          FontSize->14], 
+         StyleBox[" ",
+          FontSize->14], 
+         StyleBox[
+          FractionBox[
+           RowBox[{" ", 
+            SubscriptBox["k", "b"]}], 
+           RowBox[{
+            SubscriptBox["k", "b"], "+", 
+            SubscriptBox["k", "t"], "+", 
+            RowBox[{"4", " ", 
+             SubscriptBox["k", "b"], " ", 
+             SubscriptBox["k", "t"]}]}]],
+          FontSize->24]}]}
+      }], ")"}], "  ", 
+    SubscriptBox["M", "t"]}], TraditionalForm]],
+  FontSize->18]
+}], "Text"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    SubscriptBox["x", "I"],
+    FontSize->36], TraditionalForm]],
+  FontSize->24],
+ StyleBox["  = ",
+  FontSize->24],
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{" ", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["k", "b"], "+", 
+        RowBox[{"2", " ", 
+         SubscriptBox["k", "b"], " ", 
+         SubscriptBox["k", "t"]}]}], ")"}], "  ", "-", "   ", 
+      RowBox[{
+       SubscriptBox["k", "t"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["M", "b"], "/", 
+         RowBox[{"(", "PL", ")"}]}], ")"}]}], "    ", "+", "    ", 
+      RowBox[{
+       SubscriptBox["k", "b"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["M", "t"], "/", 
+         RowBox[{"(", "PL", ")"}]}], ")"}]}]}]}], 
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["k", "b"], "+", 
+      SubscriptBox["k", "t"], "+", 
+      RowBox[{"4", " ", 
+       SubscriptBox["k", "b"], " ", 
+       SubscriptBox["k", "t"]}]}], ")"}]], TraditionalForm]],
+  FontSize->24],
+ StyleBox[" L ",
+  FontSize->24]
+}], "Text"]
+},
+WindowSize->{1216, 865},
+WindowMargins->{{Automatic, 0}, {Automatic, 4}},
+Magnification:>FEPrivate`If[
+  FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 1.25, 1.25 Inherited],
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 106, 2, 91, "Input"],
+Cell[666, 24, 1396, 49, 61, "Text"],
+Cell[2065, 75, 285, 13, 85, "Text"],
+Cell[2353, 90, 952, 35, 86, "Text"],
+Cell[3308, 127, 178, 3, 148, "Input"],
+Cell[3489, 132, 4024, 143, 502, "Text"],
+Cell[7516, 277, 152, 2, 129, "Input"],
+Cell[7671, 281, 1116, 42, 70, "Text"]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,119 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4240,        110]
+NotebookOptionsPosition[      3881,         93]
+NotebookOutlinePosition[      4267,        110]
+CellTagsIndexPosition[      4224,        107]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"<<", "NFPackages`structuralMechanicsBook`"}], " ", "//", " ", 
+  "Quiet"}]], "Input",
+ CellChangeTimes->{{3.436025529210753*^9, 3.436025579983128*^9}, {
+  3.447602937017933*^9, 3.447602939286281*^9}, {3.447809067461524*^9, 
+  3.447809069392597*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"makeBuildingSideLoaded", "[", " ", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"3", ",", " ", "3", ",", "3"}], "}"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"4", ",", " ", "4", ",", " ", "4"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"buildingSupportList", " ", "\[Rule]", " ", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"1", " ", "\[Rule]", " ", "\"\<fixed\>\""}], ",", " ", 
+         RowBox[{"2", " ", "\[Rule]", " ", "\"\<fixed\>\""}], ",", "  ", 
+         RowBox[{"3", "  ", "\[Rule]", " ", "\"\<roller\>\""}], ",", " ", 
+         RowBox[{"4", " ", "\[Rule]", " ", "\"\<fixed\>\""}], ",", " ", 
+         RowBox[{"5", " ", "\[Rule]", " ", "\"\<roller\>\""}]}], "}"}]}], ",",
+       "\[IndentingNewLine]", 
+      RowBox[{"buildingForceSideMagnitudeList", " ", "\[Rule]", " ", 
+       RowBox[{"{", " ", "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"buildingBeamsInternalHingesList", " ", "\[Rule]", " ", 
+       RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"buildingColumnsInternalHingesList", " ", "\[Rule]", " ", 
+       RowBox[{"{", " ", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", " ", "4"}], "}"}], " ", "\[Rule]", " ", "Top"}], 
+        " ", "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"buildingBeamsEIMagnitudeList", " ", "\[Rule]", " ", 
+       RowBox[{"{", 
+        RowBox[{"_", " ", "\[Rule]", " ", "2"}], "}"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"buildingColumnsEIMagnitudeList", " ", "\[Rule]", " ", 
+       RowBox[{"{", 
+        RowBox[{"_", " ", "\[Rule]", " ", "1"}], "}"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+      "buildingShowColumnInflectionDimension", " ", "\[Rule]", " ", "False"}],
+       ",", "\[IndentingNewLine]", 
+      RowBox[{"buildingShowColumnShears", " ", "\[Rule]", " ", "False"}], ",",
+       "\[IndentingNewLine]", 
+      RowBox[{"buildingShowColumnMoments", "\[Rule]", " ", "False"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"buildingFactorDisplacement", " ", "\[Rule]", " ", "amp"}]}], 
+     " ", "]"}], " ", "//", " ", "Graphics"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"amp", ",", " ", "0"}], "}"}], ",", " ", 
+     RowBox[{"-", "2"}], ",", " ", "2"}], "}"}]}], "\[IndentingNewLine]", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.636085000842861*^9, 3.6360851013874607`*^9}, {
+  3.636085167709527*^9, 3.6360851760273457`*^9}, {3.636085209949666*^9, 
+  3.636085215523468*^9}, {3.636085260403039*^9, 3.636085330639515*^9}, {
+  3.636087474236231*^9, 3.6360875221231623`*^9}, {3.6360883314348297`*^9, 
+  3.636088333664487*^9}, {3.636091350173419*^9, 3.636091360595791*^9}, {
+  3.636091391012842*^9, 3.636091404940165*^9}, {3.636091501791772*^9, 
+  3.636091502782262*^9}}],
+
+Cell[BoxData[
+ RowBox[{"?", "*ideLoaded*"}]], "Input",
+ CellChangeTimes->{{3.636084987234314*^9, 3.636084992756543*^9}}]
+},
+WindowSize->{1193, 816},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+Magnification:>3. Inherited,
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September 9, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 284, 6, 217, "Input"],
+Cell[845, 28, 2909, 59, 1295, "Input"],
+Cell[3757, 89, 120, 2, 85, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

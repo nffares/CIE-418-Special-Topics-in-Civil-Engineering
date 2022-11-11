@@ -1,0 +1,382 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     14543,        372]
+NotebookOptionsPosition[     13691,        337]
+NotebookOutlinePosition[     14314,        362]
+CellTagsIndexPosition[     14229,        357]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "NFPackages`structuralAnalysis`shearWalls`"}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "*esponse*"}]], "Input",
+ CellChangeTimes->{{3.562479387257412*^9, 3.5624793901340647`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ DynamicModuleBox[{Typeset`open$$ = True}, 
+  PaneSelectorBox[{False->
+   RowBox[{
+    OpenerBox[Dynamic[Typeset`open$$],
+     ImageSize->Small], 
+    StyleBox["System`", "InfoHeading"]}], True->GridBox[{
+     {
+      RowBox[{
+       OpenerBox[Dynamic[Typeset`open$$],
+        ImageSize->Small], 
+       StyleBox["System`", "InfoHeading"]}]},
+     {GridBox[{
+        {
+         ButtonBox["OutputResponse",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {"OutputResponse", "System`"}},
+          ButtonNote->"System`"], 
+         ButtonBox["StateResponse",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info3562486590-3055487", {"StateResponse", "System`"}},
+          ButtonNote->"System`"]}
+       },
+       DefaultBaseStyle->"InfoGrid",
+       GridBoxItemSize->{"Columns" -> {{
+            Scaled[0.475]}}}]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
+   Dynamic[Typeset`open$$],
+   ImageSize->Automatic]], "\n", 
+ DynamicModuleBox[{Typeset`open$$ = True}, 
+  PaneSelectorBox[{False->
+   RowBox[{
+    OpenerBox[Dynamic[Typeset`open$$],
+     ImageSize->Small], 
+    StyleBox["NFPackages`shearWalls`", "InfoHeading"]}], True->GridBox[{
+     {
+      RowBox[{
+       OpenerBox[Dynamic[Typeset`open$$],
+        ImageSize->Small], 
+       StyleBox["NFPackages`shearWalls`", "InfoHeading"]}]},
+     {GridBox[{
+        {
+         ButtonBox["responseSpectrumAccelerationElCentro1940",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "responseSpectrumAccelerationElCentro1940", 
+             "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]},
+        {
+         ButtonBox["responseSpectrumAccelerationEurocodeElastic2004",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "responseSpectrumAccelerationEurocodeElastic2004", 
+             "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]},
+        {
+         ButtonBox["responseSpectrumDisplacementElCentro1940",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "responseSpectrumDisplacementElCentro1940", 
+             "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]},
+        {
+         ButtonBox["responseSpectrumVelocityElCentro1940",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "responseSpectrumVelocityElCentro1940", "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]},
+        {
+         ButtonBox["shearBuildingEarthquakeAnalyzeResponseSpectrum",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "shearBuildingEarthquakeAnalyzeResponseSpectrum", 
+             "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]},
+        {
+         ButtonBox[
+          "shearBuildingEarthquakeResultsResponseSpectrumOpenerViewer",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "shearBuildingEarthquakeResultsResponseSpectrumOpenerViewer", 
+             "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]},
+        {
+         ButtonBox["shearBuildingResponseSpectrumForDisplacementFunction",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "shearBuildingResponseSpectrumForDisplacementFunction", 
+             "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]},
+        {
+         ButtonBox["$responseSpectrumAvailable",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "$responseSpectrumAvailable", "NFPackages`shearWalls`"}},
+          ButtonNote->"NFPackages`shearWalls`"]}
+       },
+       DefaultBaseStyle->"InfoGrid",
+       GridBoxItemSize->{"Columns" -> {{
+            Scaled[0.95]}}}]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
+   Dynamic[Typeset`open$$],
+   ImageSize->Automatic]], "\n", 
+ DynamicModuleBox[{Typeset`open$$ = True}, 
+  PaneSelectorBox[{False->
+   RowBox[{
+    OpenerBox[Dynamic[Typeset`open$$],
+     ImageSize->Small], 
+    StyleBox["WebServices`", "InfoHeading"]}], True->GridBox[{
+     {
+      RowBox[{
+       OpenerBox[Dynamic[Typeset`open$$],
+        ImageSize->Small], 
+       StyleBox["WebServices`", "InfoHeading"]}]},
+     {GridBox[{
+        {
+         ButtonBox["FromServiceResponse",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {"FromServiceResponse", "WebServices`"}},
+          
+          ButtonNote->"WebServices`"], 
+         ButtonBox["$PrintServiceResponse",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info3562486590-3055487", {
+            "$PrintServiceResponse", "WebServices`"}},
+          ButtonNote->"WebServices`"]}
+       },
+       DefaultBaseStyle->"InfoGrid",
+       GridBoxItemSize->{"Columns" -> {{
+            Scaled[0.475]}}}]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
+   Dynamic[Typeset`open$$],
+   ImageSize->Automatic]]}], "Print", "InfoCell",
+ CellChangeTimes->{3.562479390572143*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"responseSpectrumAccelerationEurocodeElastic2004[ periodOfSDOF \
+] returns the acceleration in m/s^2 (meters per second per second).  \
+accelerationResponseSpectrumFunction[] returns a grid depiction of the \
+defaults used in options.  Options allow customizing the spectrum function \
+including setting up some reference magnitude for the acceleration (see \
+Options[ accelerationResponseSpectrumFunction ]).\"\>", "MSG"]], "Print", \
+"PrintUsage",
+ CellTags->"Info3562486590-3055487"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", " ", 
+  RowBox[{
+   RowBox[{
+   "responseSpectrumAccelerationEurocodeElastic2004", "[", " ", "T", "]"}], 
+   ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"T", ",", " ", "0", ",", " ", "4"}], "}"}], ",", " ", 
+   RowBox[{"PlotRange", " ", "\[Rule]", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "4"}], "}"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "Automatic"}], "}"}]}], "}"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"AxesLabel", " ", "\[Rule]", " ", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Period T\>\"", ",", " ", 
+      "\"\<Acceleration m/\!\(\*SuperscriptBox[\(s\), \(2\)]\)\>\""}], 
+     "}"}]}]}], " ", "]"}]], "Input",
+ CellChangeTimes->{{3.562479409175963*^9, 3.562479425852365*^9}, {
+  3.562479494109563*^9, 3.562479515565193*^9}, {3.5624796396176577`*^9, 
+  3.562479676041959*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, {}, 
+    {Hue[0.67, 0.6, 0.6], LineBox[CompressedData["
+1:eJwBEQLu/SFib1JlAgAAACAAAAACAAAASmXo0cDpdT4GG24QTnULQARDGnDf
+GVQ/ZX2OKIrLC0Azn5icsxlkP8PfrkDGIQxAS83Xsp0ZdD+ApO9wPs4MQFdk
+972SGYQ/+S1x0S4nDkDdL4dDjRmUP3UgOsmHbBBAoBVPhooZpD9pMz2KaB4T
+QIEIsyeJGbQ/TllDDCqCGEAqR5GIsnC0P524S47osBhA0oVv6dvHtD/sF1QQ
+p98YQCQDLKsudrU/jNZkFCQ9GUDG/aQu1NK2P8hThhwe+BlADPOWNR+MuT9C
+TsksEm4bQLUxdZZI47k/kK3RrtCcG0BecFP3cTq6P+IM2jCPyxtAr+0PucTo
+uj+Ay+o0DCkcQFLoiDxqRbw/vUgMPQbkHECY3XpDtf6+PzdDT036WR5AQRxZ
+pN5Vvz+FolfPuIgeQOpaNwUIrb8/1QFgUXe3HkAe7HljrS3AP3TAcFX0FB9A
+b2k2JQDcwD+yPZJd7s8fQMSIpdWUB8E/AJ2a36z+H0AYqBSGKTPBPyh+0bC1
+FiBAwOby5lKKwT933dkydEUgQBJkr6ilOMI/FpzqNvGiIEBmgx5ZOmTCP73L
+7ndQuiBAu6KNCc+Pwj9l+/K4r9EgQBDC/Llju8I/DSv3+Q7pIEBk4Wtq+ObC
+P7Va+zpuACFAuADbGo0Swz9civ97zRchQJVuFZdVE8M/3SjSADkYIUA18uXG
+
+      "]], 
+     LineBox[{{0.15097246287217428`, 8.5806875}, {0.15166359940712493`, 
+      8.5806875}, {0.15299358039987046`, 8.5806875}, {0.1583135043708525, 
+      8.5806875}, {0.16363342834183459`, 8.5806875}, {0.2033724813112215, 
+      8.5806875}, {0.24311153428060836`, 8.5806875}, {0.28207106477805627`, 
+      8.5806875}, {0.3210305952755042, 8.5806875}, {0.3421614156147893, 
+      8.5806875}, {0.36329223595407434`, 8.5806875}, {0.37385764612371686`, 
+      8.5806875}, {0.3844230562933594, 8.5806875}, {0.38970576137818064`, 
+      8.5806875}, {0.3949884664630019, 8.5806875}, {0.39630914273420725`, 
+      8.5806875}, {0.39762981900541255`, 8.5806875}, {0.3987244897959184, 
+      8.5806875}}], LineBox[CompressedData["
+1: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
+      "]], 
+     LineBox[CompressedData["
+1:eJwBoQNe/CFib1JlAgAAADkAAAACAAAAYPATAh8DAEBd9pxPmWr7P9aJ/Juc
+BQBAdnIr3xNi+z9LI+U1GggAQF+kH2eSWfs/IomHnRASAEDiSrkJtDf7P9BU
+zGz9JQBAkY+3+7L0+j8s7FUL100AQKm8DeiOcfo/uFRMv4pQAEAElblVzWj6
+P0O9QnM+UwBAYrkJHBBg+j9aji/bpVgAQPKwGaeiTvo/iTAJq3RjAEA2ZBBn
++yv6P+Z0vEoSeQBAtgbEFnnn+T+g/SKKTaQAQFD9aPCRYfk/Ew/wCMT6AEDB
+F1uKpmH4PwS/m68jnAFAO2gHmsuq9j9rNLvZCUsCQNOivn1zAfU/q0lioL72
+AkB6We1xyovzP/XrGhDmlgNACmcppEtR8j+1U0cDlEQEQDOyibmdHPE/f0iF
+n7TmBEAbnEjFKxfwPyHdStijhQVA2NdUmOZZ7j86N4SUGTIGQDcjvjRniew/
+XB7P+QHTBkBlGMpVlfzqP/XKjeJwgQdAraxPfdtx6T+YBF50UiQIQCicKPoJ
+H+g/E961ogLECEBHl0ny4+vmPwV9gVQ5cQlAxUE09++35T8AqV6v4hIKQMi3
+3N7hreQ/cpqvjRLCCkAzFi58kaLjP70riAgRbgtAm9aeQ1mv4j8RSnIsgg4M
+QChE4SsJ3OE/3C3Q03m8DEASVKwTWgbhP7CePyTkXg1AGnn1pRhM4D9drzYR
+Hf4NQDAIZP21Qd8/gIWhgdyqDkD+wQZvc+XdP63oHZsOTA9AXj6XUJa03D+I
+nYVg3k4PQOQemaxur9w/ZFLtJa5RD0Bjh/JrSKrcPxy8vLBNVw9AWgeuEgCg
+3D+Kj1vGjGIPQNTgYvJ/i9w/aDaZ8Qp5D0AW7VaMwWLcPyKEFEgHpg9A8Qd6
+wkgS3D/+OHwN16gPQDDfl5ZMDdw/2e3j0qarD0BgtIi+UQjcP5BXs11GsQ9A
+MBwBCGD+2z//KlJzhbwPQPrnKHSM6ts/3NGPngPTD0D+oeJIJMPbP7iG92PT
+1Q9ARTkbIj2+2z+UO18po9gPQA7ctUdXuds/S6UutELeD0C0MDx2j6/bP7p4
+zcmB6Q9AcNnEUw+c2z+WLTWPUewPQGIkRIMyl9s/ceKcVCHvD0BCj4D7VpLb
+PyhMbN/A9A9ASxxixKOI2z8EAdSkkPcPQGJpIBTMg9s/4LU7amD6D0AALM6q
+9X7bP7xqoy8w/Q9ARHj4hyB62z+XHwv1//8PQM6ULKtMdds/XrWghw==
+      
+      "]]}, {}}, {{}, {}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->{
+    FormBox["\"Period T\"", TraditionalForm], 
+    FormBox[
+    "\"Acceleration m/\\!\\(\\*SuperscriptBox[\\(s\\), \\(2\\)]\\)\"", 
+     TraditionalForm]},
+  AxesOrigin->{0, 0},
+  PlotRange->{{0, 4}, {0, 8.5806875}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{Automatic, {Automatic, 
+     Scaled[0.02]}}]], "Output",
+ CellChangeTimes->{{3.5624794203097363`*^9, 3.5624794261395206`*^9}, 
+   3.562479516148712*^9, {3.562479643111226*^9, 3.562479676461811*^9}}]
+}, Open  ]]
+},
+WindowSize->{1184, 712},
+WindowMargins->{{4, Automatic}, {Automatic, 0}},
+ShowSelection->True,
+Magnification:>FEPrivate`If[
+  FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 22, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info3562486590-3055487"->{
+  Cell[6426, 191, 514, 8, 246, "Print",
+   CellTags->"Info3562486590-3055487"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info3562486590-3055487", 14125, 351}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 85, 1, 54, "Input"],
+Cell[CellGroupData[{
+Cell[667, 25, 120, 2, 54, "Input"],
+Cell[CellGroupData[{
+Cell[812, 31, 5611, 158, 620, "Print"],
+Cell[6426, 191, 514, 8, 246, "Print",
+ CellTags->"Info3562486590-3055487"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6989, 205, 898, 24, 134, "Input"],
+Cell[7890, 231, 5785, 103, 442, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
