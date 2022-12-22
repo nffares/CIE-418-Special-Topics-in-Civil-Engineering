@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    271836,       4563]
-NotebookOptionsPosition[    269188,       4509]
-NotebookOutlinePosition[    269584,       4525]
-CellTagsIndexPosition[    269541,       4522]
+NotebookDataLength[    270830,       4536]
+NotebookOptionsPosition[    268411,       4486]
+NotebookOutlinePosition[    268808,       4502]
+CellTagsIndexPosition[    268765,       4499]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,9 +43,9 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
-Cell["Assignment 3", "Subsection",
- CellChangeTimes->{{3.879308504335657*^9, 
-  3.879308507048746*^9}},ExpressionUUID->"a5e7ddc8-412a-44b0-accf-\
+Cell["Final Exam - Oral", "Subsection",
+ CellChangeTimes->{{3.879308504335657*^9, 3.879308507048746*^9}, 
+   3.880686811146162*^9},ExpressionUUID->"a5e7ddc8-412a-44b0-accf-\
 ae974a83e033"],
 
 Cell[CellGroupData[{
@@ -574,29 +574,6 @@ Cell["Q2", "Subsubsection",
  CellChangeTimes->{{3.8806808100184917`*^9, 3.880680810546199*^9}, 
    3.880680985372032*^9},ExpressionUUID->"368f1d5c-a427-4660-8173-\
 d67aa6796a3d"],
-
-Cell["\<\
-Briefly answer the following questions:
-
-A. (6 points) For an ideal I-beam, the plastic moment is equal to the yield \
-moment.  Explain why this happens.  Also explain why the plastic moment is \
-NOT equal to the yield moment for a rectangular section.
-B. (6 points) Under what condition should an engineer choose a rectangular \
-section instead of an I-beam when designing against plastic collapse.  \
-Explain.\
-\>", "Text",
- CellChangeTimes->{{3.880681287319738*^9, 
-  3.880681288632814*^9}},ExpressionUUID->"d8862de1-c954-4708-a845-\
-2f713458cc5e"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Q3", "Subsubsection",
- CellChangeTimes->{{3.8806808100184917`*^9, 3.880680810546199*^9}, 
-   3.880680985372032*^9, 
-   3.880681293801199*^9},ExpressionUUID->"cc8a22bd-3bf0-4d9f-a177-\
-b05e8ddede13"],
 
 Cell["\<\
 Briefly answer the following questions:
@@ -4509,7 +4486,7 @@ c6dc966d5837"]
 },
 WindowSize->{808, 911},
 WindowMargins->{{Automatic, 106}, {Automatic, 0}},
-FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"02310561-ed47-45fa-9dd1-461ed2e1724c"
 ]
@@ -4530,40 +4507,36 @@ Cell[751, 27, 163, 3, 38, "Subsection",ExpressionUUID->"748cdd6a-f2e2-4796-9db0-
 Cell[917, 32, 384, 8, 30, "Input",ExpressionUUID->"d93ac6c8-767f-4b2e-b498-fbb775b3bad9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1338, 45, 160, 3, 54, "Subsection",ExpressionUUID->"a5e7ddc8-412a-44b0-accf-ae974a83e033"],
+Cell[1338, 45, 188, 3, 54, "Subsection",ExpressionUUID->"a5e7ddc8-412a-44b0-accf-ae974a83e033"],
 Cell[CellGroupData[{
-Cell[1523, 52, 155, 3, 45, "Subsubsection",ExpressionUUID->"bca47dc5-21c3-406b-979f-fadadaa92af9"],
-Cell[1681, 57, 31166, 500, 361, "Text",ExpressionUUID->"7a5c0a30-f706-40d2-804b-2ac2917b087d"],
-Cell[32850, 559, 409, 8, 104, "Text",ExpressionUUID->"780a2dff-3b90-439c-ae60-43bd7b5fa264"]
+Cell[1551, 52, 155, 3, 45, "Subsubsection",ExpressionUUID->"bca47dc5-21c3-406b-979f-fadadaa92af9"],
+Cell[1709, 57, 31166, 500, 361, "Text",ExpressionUUID->"7a5c0a30-f706-40d2-804b-2ac2917b087d"],
+Cell[32878, 559, 409, 8, 104, "Text",ExpressionUUID->"780a2dff-3b90-439c-ae60-43bd7b5fa264"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33296, 572, 178, 3, 45, "Subsubsection",ExpressionUUID->"368f1d5c-a427-4660-8173-d67aa6796a3d"],
-Cell[33477, 577, 561, 12, 150, "Text",ExpressionUUID->"d8862de1-c954-4708-a845-2f713458cc5e"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[34075, 594, 204, 4, 45, "Subsubsection",ExpressionUUID->"cc8a22bd-3bf0-4d9f-a177-b05e8ddede13"],
-Cell[34282, 600, 828, 16, 219, "Text",ExpressionUUID->"716cdeb7-6522-4048-87a5-17bf68937530"]
+Cell[33324, 572, 178, 3, 45, "Subsubsection",ExpressionUUID->"368f1d5c-a427-4660-8173-d67aa6796a3d"],
+Cell[33505, 577, 828, 16, 219, "Text",ExpressionUUID->"716cdeb7-6522-4048-87a5-17bf68937530"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[35159, 622, 203, 4, 67, "Section",ExpressionUUID->"01be044c-4c89-4675-97cd-83d75231db2e"],
+Cell[34382, 599, 203, 4, 67, "Section",ExpressionUUID->"01be044c-4c89-4675-97cd-83d75231db2e"],
 Cell[CellGroupData[{
-Cell[35387, 630, 155, 3, 45, "Subsubsection",ExpressionUUID->"2ab726bc-0185-4514-94d4-65f9e245bc0a"],
-Cell[35545, 635, 110796, 1818, 1185, "Text",ExpressionUUID->"0cd6b9c7-1b4a-480c-a2fd-ad63c3082cd9"]
+Cell[34610, 607, 155, 3, 45, "Subsubsection",ExpressionUUID->"2ab726bc-0185-4514-94d4-65f9e245bc0a"],
+Cell[34768, 612, 110796, 1818, 1185, "Text",ExpressionUUID->"0cd6b9c7-1b4a-480c-a2fd-ad63c3082cd9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[146378, 2458, 153, 3, 45, "Subsubsection",ExpressionUUID->"3eba1292-c06b-4a81-ae99-ad6400a8496c"],
-Cell[146534, 2463, 1640, 29, 426, "Text",ExpressionUUID->"fe2764ca-6473-45aa-82e3-c80ed523467a"]
+Cell[145601, 2435, 153, 3, 45, "Subsubsection",ExpressionUUID->"3eba1292-c06b-4a81-ae99-ad6400a8496c"],
+Cell[145757, 2440, 1640, 29, 426, "Text",ExpressionUUID->"fe2764ca-6473-45aa-82e3-c80ed523467a"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[148223, 2498, 158, 3, 67, "Section",ExpressionUUID->"bfb8cafc-bbd7-4671-ae3f-37664552fa6a"],
-Cell[148384, 2503, 146, 3, 35, "Text",ExpressionUUID->"9b7abfa2-6320-42c2-b1b9-676d1bdb8c5a"],
+Cell[147446, 2475, 158, 3, 67, "Section",ExpressionUUID->"bfb8cafc-bbd7-4671-ae3f-37664552fa6a"],
+Cell[147607, 2480, 146, 3, 35, "Text",ExpressionUUID->"9b7abfa2-6320-42c2-b1b9-676d1bdb8c5a"],
 Cell[CellGroupData[{
-Cell[148555, 2510, 3418, 77, 325, "Input",ExpressionUUID->"ff9f0536-171b-4821-a824-24d34dd6fbe5"],
-Cell[151976, 2589, 116111, 1893, 1199, "Output",ExpressionUUID->"215a1dd5-5f2d-4f59-9f64-96a7fcaecb02"]
+Cell[147778, 2487, 3418, 77, 325, "Input",ExpressionUUID->"ff9f0536-171b-4821-a824-24d34dd6fbe5"],
+Cell[151199, 2566, 116111, 1893, 1199, "Output",ExpressionUUID->"215a1dd5-5f2d-4f59-9f64-96a7fcaecb02"]
 }, Open  ]],
-Cell[268102, 4485, 1070, 21, 311, "Text",ExpressionUUID->"57fe4f07-c671-4b22-8a4c-c6dc966d5837"]
+Cell[267325, 4462, 1070, 21, 311, "Text",ExpressionUUID->"57fe4f07-c671-4b22-8a4c-c6dc966d5837"]
 }, Open  ]]
 }
 ]

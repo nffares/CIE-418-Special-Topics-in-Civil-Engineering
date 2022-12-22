@@ -1,0 +1,78 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2078,         70]
+NotebookOptionsPosition[      1416,         51]
+NotebookOutlinePosition[      1813,         67]
+CellTagsIndexPosition[      1770,         64]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Q1", "Subsection",
+ CellChangeTimes->{{3.880687133352553*^9, 
+  3.88068713389847*^9}},ExpressionUUID->"64bf35c6-9c9b-4334-8da9-\
+0bf111a35ffc"],
+
+Cell[CellGroupData[{
+
+Cell["Q2", "Subsection",
+ CellChangeTimes->{{3.880687139880042*^9, 
+  3.880687140486579*^9}},ExpressionUUID->"c04254c0-2dd9-45fa-bf4f-\
+76b119adeb45"],
+
+Cell["\<\
+A.
+no valid answer, even with hint\
+\>", "Text",
+ CellChangeTimes->{{3.880687176557494*^9, 3.880687177922593*^9}, {
+  3.880687759879115*^9, 
+  3.880687769800552*^9}},ExpressionUUID->"a6fd6961-7376-4226-ada8-\
+0e69e0dff93b"],
+
+Cell["\<\
+B.
+no valid answer, even with hints\
+\>", "Text",
+ CellChangeTimes->{{3.880687176557494*^9, 3.880687177922593*^9}, {
+  3.880687759879115*^9, 3.880687772663727*^9}, {3.88068791873346*^9, 
+  3.880687927729018*^9}},ExpressionUUID->"01b66e9c-54bb-48c5-9b36-\
+afc9dee69f0b"]
+}, Open  ]]
+},
+WindowSize->{808, 391},
+WindowMargins->{{Automatic, 7}, {-11, Automatic}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"eff2c2ca-692f-47ef-92cc-9064456e8bfa"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 149, 3, 54, "Subsection",ExpressionUUID->"64bf35c6-9c9b-4334-8da9-0bf111a35ffc"],
+Cell[CellGroupData[{
+Cell[732, 27, 150, 3, 38, "Subsection",ExpressionUUID->"c04254c0-2dd9-45fa-bf4f-76b119adeb45"],
+Cell[885, 32, 233, 7, 58, "Text",ExpressionUUID->"a6fd6961-7376-4226-ada8-0e69e0dff93b"],
+Cell[1121, 41, 279, 7, 58, "Text",ExpressionUUID->"01b66e9c-54bb-48c5-9b36-afc9dee69f0b"]
+}, Open  ]]
+}
+]
+*)
+
